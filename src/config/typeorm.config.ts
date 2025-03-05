@@ -8,9 +8,9 @@ const AppDataSource = new DataSource({
   url: envs.productsDatabaseUrl,
   ssl: true,
   entities: ['**/*.entity.ts'],
-  migrations: ['src/database/migrations/*-migration.ts'],
-  migrationsRun: false,
-  logging: true,
+  // migrations: ['src/database/migrations/*-migration.ts'],
+  // migrationsRun: false,
+  // logging: true,
 });
 
 export default AppDataSource;
